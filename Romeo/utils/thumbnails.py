@@ -78,7 +78,7 @@ async def gen_thumb(videoid, user_id):
         draw.text((20, 555), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
         draw.text((20, 615), f"Duration: {duration}", (255, 255, 255), font=font)
         draw.text((20, 675), f"Views: {views}", (255, 255, 255), font=font)
-        draw.text((10, 10), f"RJ•MUSIC", (255, 255, 255), font=font2)
+        draw.text((20, 20), f"L2R•MUSIC", (255, 255, 255), font=font2)
         try:
             os.remove(f"cache/thumb{videoid}.png")
             os.remove(f"cache/temp.png")
@@ -147,7 +147,7 @@ async def gen_qthumb(videoid, user_id):
         draw.text((670, 445), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
         draw.text((670, 450), f"Duration: {duration}", (255, 255, 255), font=font)
         draw.text((670, 450), f"Views: {views}", (255, 255, 255), font=font)
-        draw.text((10, 10), f"L2RMUSIC", (255, 255, 255), font=font2)
+        draw.text((20, 20), f"L2R MUSIC", (255, 255, 255), font=font2)
         try:
             os.remove(f"cache/thumb{videoid}.png")
             os.remove(f"cache/temp.png")
