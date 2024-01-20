@@ -87,25 +87,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     Romeo = math.floor(percentage)
     if 0 < Romeo <= 10:
-        bar = "RJ▇▇▇▇▇▇▇▇▇"
+        bar = "ʙω͠ғ▇▇▇▇▇▇▇▇▇"
     elif 10 < Romeo < 20:
-        bar = "▇RJ▇▇▇▇▇▇▇▇"
+        bar = "▇💨▇▇▇▇▇▇▇▇"
     elif 20 <= Romeo < 30:
-        bar = "▇▇RJ▇▇▇▇▇▇▇"
+        bar = "▇▇❣️▇▇▇▇▇▇▇"
     elif 30 <= Romeo < 40:
-        bar = "▇▇▇RJ▇▇▇▇▇▇"
+        bar = "▇▇▇🍒▇▇▇▇▇▇"
     elif 40 <= Romeo < 50:
-        bar = "▇▇▇▇RJ▇▇▇▇▇"
+        bar = "▇▇▇▇🦋▇▇▇▇▇"
     elif 50 <= Romeo < 60:
-        bar = "▇▇▇▇▇RJ▇▇▇▇"
+        bar = "▇▇▇▇▇🌷▇▇▇▇"
     elif 60 <= Romeo < 70:
-        bar = "▇▇▇▇▇▇RJ▇▇▇"
+        bar = "▇▇▇▇▇▇♦️▇▇▇"
     elif 70 <= Romeo < 80:
-        bar = "▇▇▇▇▇▇▇RJ▇▇"
+        bar = "▇▇▇▇▇▇▇🎀▇▇"
     elif 80 <= Romeo < 95:
-        bar = "▇▇▇▇▇▇▇▇RJ▇"
+        bar = "▇▇▇▇▇▇▇▇💌▇"
     else:
-        bar = "▇▇▇▇▇▇▇▇▇RJ"
+        bar = "▇▇▇▇▇▇▇▇▇❤‍🩹"
 
     buttons = [
         [
@@ -127,23 +127,23 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
+                ),
         ],
         [
             InlineKeyboardButton(
-                text="",
+                text="🌼 ᴘʟᴀʏʟɪsᴛs",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="", url=f"https://t.me/L2R_KING0"
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
             ),
         ],
         [
            InlineKeyboardButton(
-                text="", url=f"https://t.me/MUSICBOT_OWNER",
+                text="💮︎ ᴄᴘᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL,
             ),
            InlineKeyboardButton(
-                text="", url=config.SUPPORT_GROUP,
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=config.SUPPORT_GROUP,
             ),
         ],
         [
