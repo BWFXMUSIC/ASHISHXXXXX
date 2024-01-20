@@ -6,50 +6,34 @@ import config
 from Romeo import app
 
 
-def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
+def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
-                url=f"https://t.me/{BOT_USERNAME}?start=help",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="⚙ 𝐁𝐨𝐭 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 ⚙", callback_data="settings_helper"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_GROUP
+                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(
-                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL
-            )
+            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
-     ]
+    ]
     return buttons
 
 
-def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
+def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
-                callback_data="settings_back_helper",
+                text=_["S_B_3"],
+                url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
+        [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(
-                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_GROUP
-            )
-            InlineKeyboardButton(
-                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL
-            ),
-            InlineKeyboardButton(
-                text="➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕",
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-  )
-        ]
-     ]
+            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
+            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+        ],
+        [
+            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=_["S_B_7"], url=config.UPSTREAM_REPO),
+        ],
+    ]
     return buttons
