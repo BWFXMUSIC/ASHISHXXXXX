@@ -69,8 +69,8 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e745fdaf1966f228582dc.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/e745fdaf1966f228582dc.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/8fd8a0d2ec1edccfebbc0.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/8fd8a0d2ec1edccfebbc0.jpg")
 
 PLAYLIST_IMG_URL = "https://telegra.ph//file/48b76e483720f1c949992.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph//file/54a0cc0a38e242df6312f.jpg"
