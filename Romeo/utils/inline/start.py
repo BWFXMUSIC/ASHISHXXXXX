@@ -21,10 +21,10 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" 📨 sᴜᴘᴘᴏʀᴛ ", url=config.SUPPORT_GROUP
+                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text=" 📨 ᴄʜᴀɴɴᴇʟ ", url=config.SUPPORT_CHANNEL
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL
             )
         ],
      ]
@@ -35,21 +35,21 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=" ⛩️ Add me to your Group ⛩️ ",
+                text="➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🔎 How to Use? Commands Menu.", callback_data="settings_back_helper"
+                text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text=" 📨 sᴜᴘᴘᴏʀᴛ ", url=config.SUPPORT_GROUP
+                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text=" 📨 ᴄʜᴀɴɴᴇʟ ", url=config.SUPPORT_CHANNEL
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL
             )
         ]
      ]
