@@ -57,16 +57,24 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="🌼 ᴘʟᴀʏʟɪsᴛs",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
+        ],
+        [
+           InlineKeyboardButton(
+                text="💮︎ ᴄᴘᴀɴɴᴇʟ", url=f"https://t.me/MUSICBOT_OWNER",
+            ),
+           InlineKeyboardButton(
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=config.SUPPORT_GROUP,
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="", callback_data="close"
             )
         ],
     ]
@@ -123,16 +131,24 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="🌼 ᴘʟᴀʏʟɪsᴛs",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
+        ],
+        [
+           InlineKeyboardButton(
+                text="💮︎ ᴄᴘᴀɴɴᴇʟ", url=f"https://t.me/MUSICBOT_OWNER",
+            ),
+           InlineKeyboardButton(
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=config.SUPPORT_GROUP,
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="", callback_data="close"
             )
         ],
     ]
@@ -158,16 +174,24 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="🌼 ᴘʟᴀʏʟɪsᴛs",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
+        ],
+        [
+           InlineKeyboardButton(
+                text="💮︎ ᴄᴘᴀɴɴᴇʟ", url=f"https://t.me/MUSICBOT_OWNER",
+            ),
+           InlineKeyboardButton(
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=config.SUPPORT_GROUP,
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="", callback_data="close"
             )
         ],
     ]
@@ -193,16 +217,24 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="🌼 ᴘʟᴀʏʟɪsᴛs",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
+        ],
+        [
+           InlineKeyboardButton(
+                text="💮︎ ᴄᴘᴀɴɴᴇʟ", url=f"https://t.me/MUSICBOT_OWNER",
+            ),
+           InlineKeyboardButton(
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=config.SUPPORT_GROUP,
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="", callback_data="close"
             )
         ],
     ]
@@ -354,16 +386,24 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="🌼 ᴘʟᴀʏʟɪsᴛs",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
+        ],
+        [
+           InlineKeyboardButton(
+                text="💮︎ ᴄᴘᴀɴɴᴇʟ", url=f"https://t.me/MUSICBOT_OWNER",
+            ),
+           InlineKeyboardButton(
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=config.SUPPORT_GROUP,
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="", callback_data="close"
             )
         ],
     ]
@@ -389,16 +429,24 @@ def telegram_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="🌼 ᴘʟᴀʏʟɪsᴛs",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING0"
+            ),
+        ],
+        [
+           InlineKeyboardButton(
+                text="💮︎ ᴄᴘᴀɴɴᴇʟ", url=f"https://t.me/MUSICBOT_OWNER",
+            ),
+           InlineKeyboardButton(
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=config.SUPPORT_GROUP,
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
+                text="", callback_data="close"
             )
         ],
     ]
